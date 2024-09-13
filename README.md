@@ -1,3 +1,6 @@
+<h2>
+It is a simple project TextUtils in which we can Analyze text, convert to upper and lower case and also we can copy text.<h2>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -35,13 +35,13 @@ function App() {
       setMode('dark');
       document.body.style.backgroundColor = '#042743';
       showAlert("Dark mode has been enabled", "success");
-      document.title = 'TextUtils - Dark Mode';
+      document.title = 'Intra-TextUtils - Dark Mode';
     
     setInterval(() => {
-      document.title = 'TextUtils is Amazing Mode';  
+      document.title = 'Intra-TextUtils is Amazing Mode';  
     }, 2000);
     setInterval(() => {
-      document.title = 'Install TextUtils now';  
+      document.title = 'Install Intra-TextUtils now';  
     }, 1500);
     
   }
@@ -49,14 +49,14 @@ function App() {
       setMode('light');
       document.body.style.backgroundColor = 'white';
       showAlert("Light mode has been enabled", "success");
-      document.title = 'TextUtils - Light Mode';
+      document.title = 'Intra-TextUtils - Light Mode';
     }
 }
   return (
     <>
     {/*  <Router> */}
       {/* <Navbar title="TextUtils" aboutText="About TextUtils" />  */}
-      <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
+      <Navbar title="Intra TextUtils" mode={mode} toggleMode={toggleMode} />
       {/* <Navbar/> */}
       <Alert alert={alert}/>
       <div className="container my-3">

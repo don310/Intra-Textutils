@@ -17,9 +17,9 @@ export default function Navbar(props) {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav mS-auto mb-2 mb-lg-0">
           <li className="nav-item">
-           <a className="nav-link active" aria-current="page" href="#">Home</a>
+           <a className="nav-link active ms-2" aria-current="page" href="/">Home</a>
            {/* <Link className="nav-link active" aria-current="page" to="/home">Home</Link> */}
           </li>
           {/* <li className="nav-item">
@@ -38,8 +38,8 @@ export default function Navbar(props) {
           </button>
         </form> */}
         <div className={`form-check form-switch text-${props.mode === `light`?`dark`:`light`}`}>
-          <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
-          <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable DarkMode</label>
+        <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+        <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable DarkMode</label>
       </div>
       </div>
     </div>
